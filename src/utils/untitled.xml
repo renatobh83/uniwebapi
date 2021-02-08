@@ -1,0 +1,33 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ans="http://www.ans.gov.br/padroes/tiss/schemas" xmlns:xd="http://www.w3.org/2000/09/xmldsig">
+  <soapenv:Header/>
+  <soapenv:Body>
+    <ans:pedidoElegibilidadeWS>
+      <ans:cabecalho>
+        <ans:identificacaoTransacao>
+          <ans:tipoTransacao>VERIFICA_ELEGIBILIDADE</ans:tipoTransacao>
+          <ans:sequencialTransacao>1</ans:sequencialTransacao>
+          <ans:dataRegistroTransacao>2021-02-07</ans:dataRegistroTransacao>
+          <ans:horaRegistroTransacao>09:00:00</ans:horaRegistroTransacao>
+        </ans:identificacaoTransacao>
+        <ans:origem>
+          <ans:identificacaoPrestador>
+            <ans:codigoPrestadorNaOperadora>00633003074001</ans:codigoPrestadorNaOperadora>
+          </ans:identificacaoPrestador>
+        </ans:origem>
+        <ans:destino>
+          <ans:registroANS>343889</ans:registroANS>
+        </ans:destino>
+        <ans:Padrao>3.04.00</ans:Padrao>
+      </ans:cabecalho>
+      <ans:pedidoElegibilidade>
+        <ans:dadosPrestador>
+          <ans:codigoPrestadorNaOperadora>00633003074001</ans:codigoPrestadorNaOperadora>
+          <ans:nomeContratado>CENTRO ESPECIALIZADO ULTRASSONOGRAFIA</ans:nomeContratado>
+        </ans:dadosPrestador>
+        <ans:numeroCarteira>00060500010869017</ans:numeroCarteira>
+        <ans:nomeBeneficiario>SIMONE FATIMA TOBIAS RETES</ans:nomeBeneficiario>
+      </ans:pedidoElegibilidade>
+      <ans:hash>010b4b0ef601157b15c005b60221d01c</ans:hash>
+    </ans:pedidoElegibilidadeWS>
+  </soapenv:Body>
+</soapenv:Envelope>
