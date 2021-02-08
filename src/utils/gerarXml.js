@@ -9,7 +9,8 @@ const sch = "http://www.w3.org/2000/09/xmldsig"
 module.exports = {
 
 
- XMLSTATUS (codigoOpe="00633003074001", ans = "343889",numGuia="5512458", matricula= "00060500010869017",rn = "N", nomeBeneficiario="NomeBeneficiario", nomeContratado="NomeClinica"){
+ XMLSTATUS (codigoOpe, ans = "343889",numGuia, matricula,rn = "N", nomeBeneficiario="NomeBeneficiario", nomeContratado="NomeClinica"){
+  
   const sequencial = Math.floor(Math.random() * 10000);  
   const data = moment().format("yyyy-MM-DD")
   const hora =  moment().format("HH:mm:ss")
@@ -75,7 +76,7 @@ return xmlString
 },
 
 
-XMLELEGIBILIDADE(codigoOpe="00633003074001",  matricula= "00060500010869017",nomeBeneficiario="NomeBeneficiario", nomeContratado="NomeClinica"){
+XMLELEGIBILIDADE(codigoOpe, matricula,nomeBeneficiario="NomeBeneficiario", nomeContratado="NomeClinica"){
 
   const sequencial = Math.floor(Math.random() * 10000);  
   const data =  moment().format("yyyy-MM-DD")
