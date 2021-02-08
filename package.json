@@ -1,5 +1,5 @@
 {
-  "name": "Dev",
+  "name": "dev",
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
@@ -9,13 +9,9 @@
     "easy-soap-request": "^4.1.2",
     "express": "^4.17.1",
     "fast-xml-parser": "^3.18.0",
-    "hbs": "^4.1.1",
     "md5": "^2.3.0",
     "moment": "^2.29.1",
-    "object-hash": "^2.1.1",
     "soap": "^0.36.0",
-    "xml2js": "^0.4.23",
-    "xml2js-parser": "^1.1.1",
     "xmlbuilder2": "^2.4.0"
   },
   "scripts": {
